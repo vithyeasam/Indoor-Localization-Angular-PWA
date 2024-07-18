@@ -1,0 +1,117 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  padding: 0;
+  display: block;
+  // margin: 0 auto;
+  max-height: auto;
+  max-width: 200%;
+}
+.myclass
+{
+  position: absolute;
+  z-index:1;
+  margin: 0 auto;
+}
+.exampleoverlay {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(0,0,0,0.5); */
+  z-index: 10;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.filler {
+  flex: 1 1 auto;
+}
+.gap {
+  margin-right: 10px;
+}
+
+.main-container{
+  width:100vw;
+  position: relative;
+}
+
+.graph{
+  width:100%;
+  position: absolute;
+  // top:0px;
+  z-index: 0;
+  left: -1.5%;
+  height: auto;
+}
+
+.image{
+  width: 100%;
+  bottom: 0px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .graph{
+    width:100%;
+    bottom: -4%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .graph{
+    width:100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .graph{
+    width:100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .graph{
+    width:100%;
+    bottom: 7%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .graph{
+    width:100%;
+  }
+}
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.angle{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25vw;
+  background: -webkit-linear-gradient(rgb(47, 204, 204), rgb(95, 163, 219),);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient{
+  background: -webkit-linear-gradient(rgb(90, 24, 175), rgb(168, 214, 252));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

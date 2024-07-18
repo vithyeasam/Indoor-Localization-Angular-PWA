@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!-- <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
   </h1>
@@ -18,4 +18,54 @@
   </li>
 </ul>
 
+<router-outlet></router-outlet> -->
+
+
+<mat-toolbar class="gradient">
+  <div style="text-align:center">
+    <h2>
+      <!-- Bienvenue à {{ title }}! -->
+      Bienvenue à la maison!
+    </h2>
+  </div>
+</mat-toolbar>
+<!-- <body style="background-color:powderblue;"> -->
+
+<body>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+
+  <!-- <mat-toolbar>
+    <span>My Application</span>
+  </mat-toolbar> -->
+  <mat-card>
+    <div class="main-container">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <div class="gradient">
+          <mat-card-title>Bedroom</mat-card-title>
+          <mat-card-subtitle>Tracking</mat-card-subtitle>
+        </div>
+      </mat-card-header>
+      <div class="graph">
+        <canvas id="scatterChart" aria-label="Hello ARIA World" role="img"></canvas>
+      </div>
+
+      <img class="image" src="../assets/view.png">
+
+    </div>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <div class="gradient">
+        <mat-card-title>Angle</mat-card-title>
+        <mat-card-subtitle>in degree</mat-card-subtitle>
+      </div>
+    </mat-card-header>
+
+    <div class="angle">40°</div>
+  </mat-card>
+
+</body>
 <router-outlet></router-outlet>
